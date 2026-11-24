@@ -49,3 +49,15 @@ Agenti mají k dispozici tyto nástroje:
 ---
 
 *Tento repozitář slouží k experimentování a učení se pracovat s AI agenty efektivně.*
+
+## O Cline
+
+Cline je AI coding agent, který podporuje práci s AI agenty. V tomto repozitáři má Cline přístup k nástrojům:
+
+- **Čtení/písání souborů** – `read_file`, `create_new_file`, `edit_existing_file`
+- **Prohledávání kódu** – `grep_search`, `file_glob_search`
+- **Terminál** – `run_terminal_command` (spouštění testů, buildu, lintingu)
+- **Web** – `search_web`, `fetch_url_content` (pro vyhledávání dokumentací)
+- **Skills** – `read_skill` (předdefinované postupy pro specifické úkoly)
+
+Agenty se záměrně plánují, implementují a verifikují úkoly. Připojte tu sekci k názvu repozitáře.
